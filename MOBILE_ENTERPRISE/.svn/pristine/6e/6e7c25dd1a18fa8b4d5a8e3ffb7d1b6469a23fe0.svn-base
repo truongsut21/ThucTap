@@ -1,0 +1,1 @@
+export const API_UPDATE_MY_USER_NEW_NAME = '1100';

@@ -1,0 +1,83 @@
+export const API_SIGN_IN_NEW = 'API_SIGN_IN_NEW';
+export const API_RESEND_CODE = 'API_RESEND_CODE';
+export const API_SIGN_IN = '100';
+export const API_RESET_REQUEST_PASSWORD_SUCCESS = '101'
+export const API_SEND_SECURITY_CODE_FORFINALIZER_FORGET = '102'
+export const API_RESET_PASSWORD = '103'
+
+export const API_VALIDATE_USERNAME = '105';
+
+export const API_VALIDATE_COMPANY = '107';
+
+export const SWITCH_TO_ACCOUNT = '108';
+
+export const API_V2_VALIDATE_AFTER_USERNAME = '110';
+
+export const API_V2_VALIDATE_AFTER_COMPANY = '111';
+
+export const UPDATE_LOGGED_USERS = '112';
+export const UPDATE_LOGGED_USERS_SUCCESS = '1121';
+
+export const API_GET_ACTIVE_USER_INFO = '113';
+
+export const DO_ACTIONS_AFTER_FETCHING_USER_INFO = '114';
+export const DO_ACTIONS_AFTER_FETCHING_USER_INFO_SUCCESS = '1141';
+
+export const UPDATE_ERROR_MESSAGE_WHILE_AUTH = '115';
+
+export const UPDATE_LOGGING_IN_USER = '116';
+
+export const UPDATE_ACTIVE_USER_ID = '117';
+
+export const UPDATE_PREV_ACTIVE_USER_ID = '118';
+
+export const API_SIGN_OUT = '119';
+export const API_SEND_SECURITY_CODE_FOR_LOGIN = "120"
+export const API_SEND_SECURITY_CODE_FOR_LOGIN_NEW = "API_SEND_SECURITY_CODE_FOR_LOGIN_NEW"
+export const API_SEND_SECURITY_CODE_FOR_SIGNUP_NEW = "API_SEND_SECURITY_CODE_FOR_SIGNUP_NEW"
+
+export const API_GET_MY_USER_INFO = "121"
+
+export const UPDATE_TOKEN_SUCCSESS = "122"
+export const UPDATE_USER_INFO_SUCCSESS = "123"
+
+
+
+//HAO
+
+export const API_FETCH_INIT_LANDING = "128"
+export const API_SIGN_UP = '129';
+//đăng ký mới
+export const API_SIGN_UP_NEW = 'API_SIGN_UP_NEW';
+export const UPDATE_ERROR_SUCCESS = '130';
+export const API_CHANGE_PASSWORD = "301"
+export const UPDATE_NOTIFICATION_SUCCESS = '2222'; // tạo
+export const CLEAR_NOTIFICATION_SUCCESS = '2221'; //TẠO
+export const CLEAR_ERROR_SUCCESS = '131';
+export const UPDATE_ERROR = '136';
+export const UPDATE_NOTIFICATION = '137';
+
+export const API_SEND_SECURITY_CODE_FOR_SIGN_UP = '132';
+export const UPDATE_BEAUTY_LOADING = '133';
+export const CLEAR_BEAUTY_LOADING = '134';
+export const UPDATE_BEAUTY_LOADING_SUCCESS = '135';
+
+
+//start screen
+export const START_SCREEN = 'START_SCREEN';
+
+
+
+
+
+
+
+
+
+
+
+
+
+//HAO
+
+// export const UPDATE_LANDING_USER_SUCCSESS = "124"

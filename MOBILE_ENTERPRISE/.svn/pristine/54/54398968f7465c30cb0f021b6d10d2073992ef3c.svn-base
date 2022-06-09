@@ -1,0 +1,56 @@
+# project_name = mobile
+
+METRO SERVER
+- IOS và ANDROID: mở terminal, cd tới folder project "cd documents, cd tomaho, cd mobile" và gõ câu lệnh "yarn start --reset-cache"
+
+SIMULATOR
+- IOS: theo mục XCODE
+- ANDROID: mở terminal riêng và phải để luôn chạy (không được tắt), gõ/dán lần lượt 2 câu lệnh "cd ~/Library/Android/sdk/emulator" và "./emulator -avd Pixel_2_API_29"
+
+=========================================================================================
+
+ANDROID
+- "cd android &&	./gradlew clean": làm sạch/xoá các bản build trước (hoặc có thể xoá tay folder build theo đường dẫn [project_name]/android/app)
+- "				./gradlew assembleRelease": build ra file apk (nằm trong đường dẫn [project_name]/android/app/build/outputs/apk)
+- "				./gradlew bundleRelease && cd ../ && npx react-native run-android --variant=release": build ra bundle, sau đó cd về thư mục project và build trực tiếp tới thiết bị đang được kết nối (không nên dùng giả lập)
+- "npm run android":  
+
+* nên	"./gradlew clean" trước khi build apk/bundle
+* 		"./gradlew clean" mỗi khi app không thể hotload, bị lỗi metro server
+** "Ctrl + C" để huỷ tiến trình trên terminal trong vscode
+
+ANDROID STUDIO
+- chỉ dùng để cập nhật lại gradlew nếu bị lỗi
+- nếu để cập nhật lại gradlew: open project và chọn thư mục ANDROID trong folder [project_name] và chờ cho tiến trình gradlew hoàn tất (có bảng hiện tiến trình ở góc dưới bên phải trên app ANDROID STUDIO)
+
+=========================================================================================
+
+IOS
+- "cd ios && open [project_name].xcworkspace": cd vào thư mục ios và mở project bằng xcode
+- "			pod install / pod update": mỗi khi cài đặt thêm thư viện mới, để nó tự động link thư viện vào podfile
+
+** không cần "pod install / pod update" quá nhiều
+** thao tác chủ yếu trên xcode
+
+XCODE
+- "Command(Window) + Shift + K": để clean bản build trên xcode (tương tự ./gradlew clean cho ANDROID)
+- "Command(Window) + B": để build
+- "Command(Window) + R": để run app sau khi build hoàn tất
+
+* nên clean bản build vào lần đầu mỗi ngày và mỗi khi app không thể hotload hay báo lỗi kì quặc
+* build rất lâu
+** không thể test camera/micro trên giả lập
+** không thể test background fetch/scheduler, push notification trên giả lập
+** chỉ có thể test background fetch/scheduler, push notification trên thiết bị thực và cần tài khoản apple để thiết lập
+
+=========================================================================================
+
+** cài thêm thư viện mới thì phải làm đầy đủ các bước linking lib với project trên guide của chính thư viện đó (không cần làm theo các bước thủ công - manually của thư viện đó)
+** chỉ được cài thêm thư viện mới như yarn add [library_name] / npm install --save [library_name] hoặc xoá thư viện yarn remove / npm uninstall
+** thông thường để linking library bên IOS là phải cd ios && pod install/update
+** không được npm install (tại vì các thư viện đã được chỉnh sửa sẽ rollback lại như library gốc)
+
+** sửa lỗi missing request token for request khi upload ảnh bên IOS 
+https://github.com/facebook/react-native/issues/29364#issuecomment-689266545
+
+chmod+x

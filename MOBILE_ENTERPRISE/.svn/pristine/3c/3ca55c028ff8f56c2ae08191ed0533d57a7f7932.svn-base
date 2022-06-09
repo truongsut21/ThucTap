@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "749235594391",
+    "firebase_url": "https://tom-mobile.firebaseio.com",
+    "project_id": "tom-mobile",
+    "storage_bucket": "tom-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749235594391:android:2a685f4945ee924b66f5d2",
+        "android_client_info": {
+          "package_name": "com.tomaho.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749235594391-d5vtp7jdkg8dtjm1cigdqm6m8rnpfhlc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tomaho.mobile",
+            "certificate_hash": "a38e32cdd30631f03248c4b59960375ced05b05a"
+          }
+        },
+        {
+          "client_id": "749235594391-3nvrinf2nee9uv8b4tpt1n77corbkf80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXtgtATZ-Cx8AY5k2fQanGkT4h-XSkPpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749235594391-3nvrinf2nee9uv8b4tpt1n77corbkf80.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "749235594391-t981o0lbej82sdhn9o6jh2jptsvl6oaa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tomaho.mobiledev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749235594391:android:ecbe07a1d21be45466f5d2",
+        "android_client_info": {
+          "package_name": "com.tomaho.mobile.enterprise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749235594391-8n14cvci84ehirgrgs4dtkama4c1g08l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tomaho.mobile.enterprise",
+            "certificate_hash": "a38e32cdd30631f03248c4b59960375ced05b05a"
+          }
+        },
+        {
+          "client_id": "749235594391-3nvrinf2nee9uv8b4tpt1n77corbkf80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXtgtATZ-Cx8AY5k2fQanGkT4h-XSkPpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749235594391-3nvrinf2nee9uv8b4tpt1n77corbkf80.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "749235594391-t981o0lbej82sdhn9o6jh2jptsvl6oaa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tomaho.mobiledev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749235594391:android:91962bdba00aacba66f5d2",
+        "android_client_info": {
+          "package_name": "com.tomaho.mobile_enterprise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749235594391-d02i6bbg840oe7r11lero8guldpompc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tomaho.mobile_enterprise",
+            "certificate_hash": "a38e32cdd30631f03248c4b59960375ced05b05a"
+          }
+        },
+        {
+          "client_id": "749235594391-3nvrinf2nee9uv8b4tpt1n77corbkf80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXtgtATZ-Cx8AY5k2fQanGkT4h-XSkPpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749235594391-3nvrinf2nee9uv8b4tpt1n77corbkf80.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "749235594391-t981o0lbej82sdhn9o6jh2jptsvl6oaa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tomaho.mobiledev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_notification.png.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_notification.png"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_notification.png.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_notification.png"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_dang_go.mp3.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\raw\\dang_go.mp3"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_piece_of_cake.mp3.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\raw\\piece_of_cake.mp3"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_tin_nhan_moi.mp3.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\raw\\tin_nhan_moi.mp3"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_notification.png.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_notification.png"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_notification.png.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_notification.png"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_sent_sound.mp3.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\raw\\sent_sound.mp3"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_notification.png.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_notification.png"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_time_is_now.mp3.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\raw\\time_is_now.mp3"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_received_sound.mp3.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\raw\\received_sound.mp3"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rn_edit_text_material.xml.flat",
+        "source": "E:\\ThucTap\\MOBILE_ENTERPRISE\\android\\app\\src\\main\\res\\drawable\\rn_edit_text_material.xml"
+    }
+]

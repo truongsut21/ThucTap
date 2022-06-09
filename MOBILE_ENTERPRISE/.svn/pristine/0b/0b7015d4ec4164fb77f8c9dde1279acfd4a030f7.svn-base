@@ -1,0 +1,36 @@
+{
+  "backend_url": "https://tomuser.tomahosoft.com",
+  "auth_url": "https://tomchat.tomahosoft.com",
+  "stream_server": "streamsfu001.tomahosoft.com",
+  "file_server": "https://fsv01.tomahosoft.com",
+  "socket_url": "https://tomchat.tomahosoft.com",
+  "sticker_server": "https://sticker.tomahosoft.com/stickers",
+  "socket_jsonp": false,
+  "socket_transports": ["websocket"],
+  "payloadToken": {
+    "publicKey": [
+      "-----BEGIN PUBLIC KEY-----",
+      "MFswDQYJKoZIhvcNAQEBBQADSgAwRwJAfN+FZk38dc8Z3P8KmcD/ju1sfOIY7GQp",
+      "CwJQRf84yA07zPACyVYaSyDOcqW7DiXUqkALALhnNxK1ZygwrKcrSQIDAQAB",
+      "-----END PUBLIC KEY-----"
+    ],
+    "privateKey": [
+      "-----BEGIN RSA PRIVATE KEY-----",
+      "MIIBOgIBAAJAfN+FZk38dc8Z3P8KmcD/ju1sfOIY7GQpCwJQRf84yA07zPACyVYa",
+      "SyDOcqW7DiXUqkALALhnNxK1ZygwrKcrSQIDAQABAkAhilwnbX0JG7aDsJFlWPyL",
+      "pGQGayhsnj6T8WwkUPgsa1krNcZ8bopxzq8D7Irm921pz16F7d3k/rDg9NeGXaQ9",
+      "AiEAwjHdBHYLmq4xkMAR3fa44CzaxOU/1cv04F5Sm0jiwW8CIQCknaJzJWSa3Iss",
+      "YfF2+lW5cR/es9FIYrd7BMQu40cSxwIhAJ8E+fmHOKVnc0sXHQpn2Kgp0tNc7tMB",
+      "+vooAvkJzDWdAiEAkEM9TJ/mjPjeVuT20ggM/FkxTuBTdpZcqcjBjT3M2Z0CIBPD",
+      "XJFxB5AtXggbP1M2i0Z60HzwwCkatSvoeE47OHTM",
+      "-----END RSA PRIVATE KEY-----"
+    ],
+    "issuer": "Tomahosoft",
+    "subject": "contact@tomahosoft.com",
+    "audience": "https://www.tomahosoft.com",
+    "expiresIn": 5,
+    "algorithm": "RS256"
+  },
+  "payloadAESPass": "Password_Dung_De_Encrypt_Decrypt_Payload",
+  "appSchema": "tomaho.enterprise://"
+}

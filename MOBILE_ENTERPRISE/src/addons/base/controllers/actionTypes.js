@@ -1,0 +1,11 @@
+export const CHANGE_APP_STATE = '500';
+
+
+
+export const CLEAR_ALL_DATA = '99999';
+
+export const NAVIGATE_NEXT_SCREEN_AFTER_AMOUNT_OF_TIME = '99998';
+
+export const DISPLAY_LOCAL_NOTIFICATION = '99997';
+
+export const CHANGE_THEME = '99996';

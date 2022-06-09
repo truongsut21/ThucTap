@@ -1,0 +1,18 @@
+redux là gì
+- giúp quản lý state
+- state state là dữ liệu được lưu trên store
+- reducer là hàm biến đối state cũ thành state mới
+- dispatcher quản lý middlewares và chuyển dữ liệu xuống reducer
+- action: plain js obj mô tả hành động
+
+khi nào thì sửa dụng redux
+- khi thông tin được chia sẻ và cần được sửa dụng ở nhiều nơi, thông tin giỏ hàng, login user
+- cần cache dữ liệu kh cần gọi api lại lần nữa
+
+
+-- bao cao config saga
+yield put, yield call, yield takEevery, yield fork, yield spawn
+
+
+yield take, 
+take leading, take latest
