@@ -18,7 +18,7 @@ export default function Content(props) {
           }}
         >
           <Text style={{ color: "#696969" }}>
-            {isLengthContent ? "xem them" : ""}
+            {isLengthContent ? "xem thêm" : ""}
           </Text>
         </TouchableOpacity>
       </Text>

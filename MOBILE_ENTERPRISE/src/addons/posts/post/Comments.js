@@ -7,7 +7,7 @@ let comment =
 export default function Comments(props) {
   const [isLengthComment, setIsLengthComment] = useState(comment.length > 90);
   return (
-    <View style={{ flexDirection: "row", marginTop: 5, margin: 20 }}>
+    <View style={{ flexDirection: "row", marginTop: 10, margin: 20 }}>
       <Image
         source={{
           uri: `${props.img}`,
@@ -26,7 +26,7 @@ export default function Comments(props) {
             }}
           >
             <Text style={{ color: "#696969" }}>
-              {isLengthComment ? "xem them" : ""}
+              {isLengthComment ? "xem thêm" : ""}
             </Text>
           </TouchableOpacity>
         </Text>

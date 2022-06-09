@@ -2,7 +2,7 @@ import axios from "axios";
 import { config } from "../../../config";
 import { encryptPayload } from "../../../config/utilities";
 
-export function WorkerPostTodo(data) {
+export default function WorkerPostToDo(data) {
   return Promise.all([
     data.donotEncrypt
       ? workaroundNotEncrypt(data.payload)

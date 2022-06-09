@@ -1,8 +1,7 @@
 import React from "react";
-import Feather from "react-native-vector-icons/Feather";
-import { Dimensions, ScrollView } from "react-native";
-
-import { StatusBar } from "react-native";
+import { useDispatch } from "react-redux";
+import * as Action from "./controller/actionTypes";
+import { ScrollView, TouchableOpacity, StatusBar, Text } from "react-native";
 
 import Post from "./post/Posts";
 
@@ -70,11 +69,24 @@ const posts = [
   },
 ];
 const PostScreen = () => {
+  const dispatch = useDispatch();
   return (
-    <ScrollView style={{ backgroundColor: "#E9E9E9" }}>
+    <ScrollView style={{ backgroundColor: "#E5E5E5" }}>
       <StatusBar style="light" />
       <Post name="post1" />
       <Post name="post2" />
+      <TouchableOpacity
+        // onPress={() => {
+        //   // dispatch({ type: Action.API_FETCH_POST_LIST });
+        // }}
+
+        onPress={() => {
+          console.log("chay dispatch")
+          dispatch({ type: Action.API_FETCH_POST_LIST });
+        }}
+      >
+        <Text>Test API</Text>
+      </TouchableOpacity>
     </ScrollView>
   );
 };

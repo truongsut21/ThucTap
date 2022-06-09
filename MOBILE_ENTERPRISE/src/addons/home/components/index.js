@@ -19,7 +19,7 @@ import isEqual from "react-fast-compare";
 import ThreadList from "../../chat/components/ThreadList";
 import ECard from "../../ecard/components/ECard";
 import TodoNoteListScreen from "../../note/components/TodoNoteListScreen";
-import PostScreen from "../../note/components/PostScreen";
+import PostScreen from "../../posts/PostScreen";
 import { QRScreen } from "../../navigator/components/QRScannerScreen";
 import { connect, useDispatch, useSelector } from "react-redux";
 import { socket } from "../../../config/socket";

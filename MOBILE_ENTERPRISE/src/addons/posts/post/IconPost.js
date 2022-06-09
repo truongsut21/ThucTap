@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import React from "react";
-import { View, Image, Text } from "react-native";
-import Feather from "react-native-vector-icons/Feather";
+import { View, Text } from "react-native";
+
 import Ionicons from "react-native-vector-icons/Ionicons";
 
 export default function IconPost(props) {
@@ -14,10 +14,9 @@ export default function IconPost(props) {
           marginLeft: 30,
           paddingBottom: 0,
           boder: 2,
-          // color: focused ? "#00A48D" : "#828282",
         }}
         size={25}
-        name={true?"heart" :"heart-outline"}
+        name={true ? "heart" : "heart-outline"}
       />
 
       <Text
@@ -31,7 +30,7 @@ export default function IconPost(props) {
       <Ionicons
         color={"red"}
         style={{
-          color: "#dc143c",
+          color: "#00A48D",
           marginLeft: 30,
           paddingBottom: 0,
           boder: 2,
