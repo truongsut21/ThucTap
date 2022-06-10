@@ -17,7 +17,6 @@ import { watcherInit } from '../chat/controllers/watcherInit'
 import { watcherFriend } from '../friend/controllers/watcher';
 import { watcherBase } from '../base/controllers/watcher';
 import { watcherECard } from '../ecard/controllers/watcher';
-import watcherPostList from '../posts/controller/watcher';
 
 export default function* rootSaga() {
     yield all([
@@ -37,7 +36,6 @@ export default function* rootSaga() {
         watcherSetting(),
         watcherBase(),
         watcherECard(),
-        watcherPostList()
         // watcherCall(),
         // watcherTask(),
     ])

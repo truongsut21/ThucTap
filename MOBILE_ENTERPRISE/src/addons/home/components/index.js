@@ -19,7 +19,6 @@ import isEqual from "react-fast-compare";
 import ThreadList from "../../chat/components/ThreadList";
 import ECard from "../../ecard/components/ECard";
 import TodoNoteListScreen from "../../note/components/TodoNoteListScreen";
-import PostScreen from "../../posts/PostScreen";
 import { QRScreen } from "../../navigator/components/QRScannerScreen";
 import { connect, useDispatch, useSelector } from "react-redux";
 import { socket } from "../../../config/socket";
@@ -32,6 +31,7 @@ import * as AuthAction from "../../auth/controllers/actionTypes";
 import * as ActionFriend from "../../friend/controllers/actionType";
 import * as BaseAction from '../../base/controllers/actionTypes';
 import { useNavigation } from "@react-navigation/native";
+import PostScreen from "../../social/component/PostScreen"
 
 var _ = require("lodash");
 const Tab = createBottomTabNavigator();
@@ -699,14 +699,14 @@ const Home = () => {
 			}}
 		/>
 
-<Tab.Screen
-			name="Bảng tin"
+		<Tab.Screen
+			name="Newfeed"
 			component={PostScreen}
 			options={{
 				unmountOnBlur: true,
 				tabBarHideOnKeyboard: true,
 				tabBarIcon: ({ focused, color }) => {
-					return (<MaterialCommunityIcons
+					return (<Ionicons
 						color={color}
 						style={{
 							top: 7,
@@ -718,7 +718,7 @@ const Home = () => {
 							color: focused ? "#00A48D" : "#828282",
 						}}
 						size={25}
-						name={focused ? "world" : "world-outline"}
+						name={focused ? "globe" : "globe-outline"}
 					/>
 					);
 				},
@@ -739,24 +739,9 @@ const Home = () => {
 								color: focused ? "#00A48D" : "#828282",
 							}}
 						>
-							Bảng tin
+							Cộng đồng
 						</Text>
 					);
-				},
-			}}
-		/>
-
-		<Tab.Screen
-			name="QRScanner"
-			component={QRScreen}
-			options={{
-				unmountOnBlur: true,
-				tabBarHideOnKeyboard: true,
-				tabBarIcon: ({ focused, color }) => {
-					return <ScanIcon />
-				},
-				tabBarLabel: ({ focused, color }) => {
-					return null;
 				},
 			}}
 		/>

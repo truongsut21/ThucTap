@@ -1,0 +1,53 @@
+import React from "react";
+import { useDispatch } from "react-redux";
+import * as Action from "../posts/controller/actionTypes";
+import { ScrollView, TouchableOpacity, StatusBar, Text, TextInput, SafeAreaView } from "react-native";
+
+import Post from "./Posts";
+import { useNavigation } from "@react-navigation/native";
+
+
+const PostScreen = () => {
+	const dispatch = useDispatch();
+	const navigation=useNavigation();
+	return (
+		<SafeAreaView>
+			<ScrollView style={{ backgroundColor: "#E5E5E5" }}>
+				<StatusBar style="light" />
+				<TextInput
+					placeholder="Đăng bài viết"
+					placeholderTextColor="#6A6A6A"
+					// value={textValue ? text : null}
+					autoFocus={true}
+					// onBlur={handleBlur}
+					// onFocus={handleFocus}
+					// onChangeText={onChangeText}
+					onPressIn={()=>navigation.navigate("NewPost")}
+					style={{
+						paddingLeft: 17,
+						paddingBottom: 200,
+						maxHeight: "100%",
+						fontSize: 14,
+						lineHeight: 17,
+						fontWeight: "500",
+						opacity: 0.6,
+					}}
+				/>
+				<Post name="post1" />
+				<Post name="post2" />
+				<TouchableOpacity
+					// onPress={() => {
+					//   // dispatch({ type: Action.API_FETCH_POST_LIST });
+					// }}
+					onPress={() => {
+						console.log("chay dispatch")
+						dispatch({ type: Action.API_FETCH_POST_LIST });
+					}}
+				>
+					<Text>Test API</Text>
+				</TouchableOpacity>
+			</ScrollView>
+		</SafeAreaView>
+  )
+};
+export default PostScreen;

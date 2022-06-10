@@ -1,9 +1,9 @@
 {
-  "auth_url": "http://192.168.1.64:7099",
-  "backend_url": "http://192.168.1.64:7091",
+  "backend_url": "https://tomuser.tomahosoft.com",
+  "auth_url": "https://tomchat.tomahosoft.com",
   "stream_server": "streamsfu001.tomahosoft.com",
   "file_server": "https://fsv01.tomahosoft.com",
-  "socket_url": "http://192.168.1.64:7091",
+  "socket_url": "https://tomchat.tomahosoft.com",
   "sticker_server": "https://sticker.tomahosoft.com/stickers",
   "socket_jsonp": false,
   "socket_transports": ["websocket"],

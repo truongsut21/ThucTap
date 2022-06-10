@@ -60,7 +60,7 @@ const TodoNoteListScreen = () => {
               fontWeight: "500",
             }}
           >
-             công việc
+            Ghi chú công việc
           </Text>
         </View>
         <TouchableOpacity

@@ -81,6 +81,9 @@ import EditECard from "../../ecard/components/EditECard";
 import ECardOther from "../../ecard/components/ECardOther";
 import ECardScan from "../../ecard/components/ECardScan";
 import ChooseTheme from '../../setting/components/ChooseThemeScreen';
+import PostScreen from "../../social/component/PostScreen";
+import NewPost from "../../social/component/NewPost"
+import PostOption from "../../social/component/PostOption"
 
 const Stack = createStackNavigator();
 const Root = createNativeStackNavigator();
@@ -425,6 +428,22 @@ const Navigator = () => {
               }}
               component={ChooseTheme}
             />
+            <Root.Screen
+              name="Newsfeed"
+              component={PostScreen}
+            />
+            <Root.Screen
+              name="NewPost"
+              component={NewPost}
+            />
+            <Root.Screen
+              name="PostOption"
+              options={{
+                animation: "slide_from_right",
+              }}
+              component={PostOption}
+            />
+            
           </Root.Navigator>
         ) : (
           // main auth
