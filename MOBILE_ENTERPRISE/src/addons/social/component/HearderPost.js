@@ -46,10 +46,10 @@ export default function HearderPost(props) {
           }}
         >
           <Ionicons
-            color={"red"}
+        
             style={{
               color: "#B7B7B7",
-              marginLeft: 30,
+              marginLeft: 10,
               paddingBottom: 0,
               boder: 2,
             }}
@@ -87,8 +87,9 @@ export default function HearderPost(props) {
         style={{
           flexDirection: "row",
           alignItems: "center",
-          paddingTop:0,
-          padding: 20,
+          paddingTop: 10,
+          padding: 14,
+          paddingBottom: 5,
         }}
       >
         <Image
@@ -103,14 +104,14 @@ export default function HearderPost(props) {
           autoFocus={false}
           onPressIn={() => navigation.navigate("NewPost")}
           style={{
-            
             paddingLeft: 17,
-            paddingBottom: 15,
+            paddingBottom: 10,
             maxHeight: "100%",
             fontSize: 14,
             fontWeight: "500",
             opacity: 0.6,
             flex: 2,
+        
           }}
         />
       </View>

@@ -11,7 +11,7 @@ export default function IconPost(props) {
         color={"red"}
         style={{
           color: "#dc143c",
-          marginLeft: 30,
+          marginLeft: 10,
           paddingBottom: 0,
           boder: 2,
         }}
@@ -31,7 +31,7 @@ export default function IconPost(props) {
         color={"red"}
         style={{
           color: "#00A48D",
-          marginLeft: 30,
+          marginLeft: 32,
           paddingBottom: 0,
           boder: 2,
           // color: focused ? "#00A48D" : "#828282",

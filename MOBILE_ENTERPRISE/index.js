@@ -1,10 +1,10 @@
-import App from './App';
-import { name as appName } from './app.json';
+import App from "./App";
+import { name as appName } from "./app.json";
 
 import {
-    // Platform, Linking,
-    AppRegistry
-} from 'react-native';
+  // Platform, Linking,
+  AppRegistry,
+} from "react-native";
 // import messaging from '@react-native-firebase/messaging';
 // import AsyncStorage from '@react-native-async-storage/async-storage';
 // import PushNotification from 'react-native-push-notification';
@@ -13,7 +13,7 @@ import {
 // import store from './src/addons/redux';
 // import * as Action from './src/addons/chat/controllers/actionTypes';
 // import { extractDataByUserId } from './src/config/utilities';
-var _ = require('lodash');
+var _ = require("lodash");
 
 // notifee.onBackgroundEvent(async ({ type, detail }) => {
 //     if (Platform.OS === 'android') {
@@ -23,7 +23,6 @@ var _ = require('lodash');
 //         }
 //     }
 // })
-
 
 // const prepareSimpleContent = ({ type, content }) => {
 //     if (type === 'sticker') {

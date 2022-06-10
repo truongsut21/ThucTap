@@ -8,20 +8,22 @@ export default function* watcherPostList() {
 }
 
 function* workerAPIFetchPostList() {
-  let token = yield select((state) => state.AuthStoredReducer.token);
-  
+  try {
+    let token = yield select((state) => state.AuthStoredReducer.token);
 
-  let response = yield call(WorkerPostToDo, {
-    method: "POST",
-    token: token,
-    functionName: "/api/fetchNewestPosts", 
-    payload: {
-      data: {},
-    },
-  });
+    let response = yield call(WorkerPostToDo, {
+      method: "POST",
+      token: token,
+      functionName: "/api/fetchNewestPosts",
+      payload: {
+        data: {},
+      },
+    });
 
-  
-  console.log(response);
+    console.log(response);
+  } catch (error) {
+    console.log(error);
+  }
 }
 
 function* workerAPIFetchOldPostList() {
@@ -30,11 +32,11 @@ function* workerAPIFetchOldPostList() {
   let responsi = yield call(WorkerPostToDo, {
     method: "POST",
     token: token,
-    functionName: "fetchOlderPosts",
+    functionName: "/api/fetchOlderPosts",
     payload: {
       data: {},
     },
   });
 
-  console.log(responsi);
+  console.log("fetchOlderPosts");
 }

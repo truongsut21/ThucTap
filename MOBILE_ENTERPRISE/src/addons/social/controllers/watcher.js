@@ -70,17 +70,22 @@ export function* watcherPost() {
   yield takeEvery(Action.API_UPDATE_POST_REPLY, workerAPIUpdatePostReply);
 }
 function* workerAPIFetchPost() {
-  let token = yield select((state) => state.AuthStoredReducer.token);
-
-  let response = yield call(WorkerPostToDo, {
-    method: "POST",
-    token: token,
-    functionName: "/api/",
-    payload: {
-      data: {},
-    },
-  });
-  console.log(response);
+  try {
+    let token = yield select((state) => state.AuthStoredReducer.token);
+  
+    let response = yield call(WorkerPostToDo, {
+      method: "POST",
+      token: token,
+      functionName: "/api/",
+      payload: {
+        data: {},
+      },
+    });
+    console.log(response);
+  }
+  catch (error){
+    console.log(error)
+  }
 }
 
 function* workerAPIUpdateNewPost() {

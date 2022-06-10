@@ -1,6 +1,6 @@
 import axios from "axios";
-import { config } from "../../../config";
-import { encryptPayload } from "../../../config/utilities";
+import { config } from "../../../../config";
+import { encryptPayload } from "../../../../config/utilities";
 
 export default function WorkerPostToDo(data) {
   return Promise.all([
