@@ -19,8 +19,21 @@ function* workerAPIFetchPostList() {
         data: {},
       },
     });
+    response.posts.map((x) => {
+      console.log(x.content);
+    });
+    const {posts}=response
+    console.log("day la post trong watch:", posts)
+    if (posts){
+      yield put(
+        {type:Action.RENDER_POST,
+        data:{
+          posts
+        }
+        }
 
-    console.log(response);
+      )
+    }
   } catch (error) {
     console.log(error);
   }

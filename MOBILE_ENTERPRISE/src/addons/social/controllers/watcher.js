@@ -72,7 +72,7 @@ export function* watcherPost() {
 function* workerAPIFetchPost() {
   try {
     let token = yield select((state) => state.AuthStoredReducer.token);
-  
+
     let response = yield call(WorkerPostToDo, {
       method: "POST",
       token: token,
@@ -81,10 +81,13 @@ function* workerAPIFetchPost() {
         data: {},
       },
     });
+
+   
+ 
+
     console.log(response);
-  }
-  catch (error){
-    console.log(error)
+  } catch (error) {
+    console.log(error);
   }
 }
 
@@ -104,7 +107,7 @@ function* workerAPIUpdateNewPost() {
       },
     },
   });
-  console.log(response);
+  // console.log(response);
 }
 
 // function* worker() {

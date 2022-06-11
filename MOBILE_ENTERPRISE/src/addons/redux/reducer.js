@@ -4,8 +4,8 @@ import AuthStoredReducer from '../auth/model/StoredReducer';
 import AuthUnstoredReducer from '../auth/model/UnstoredReducer';
 import ChatStoredReducer from '../chat/model/StoredReducer';
 import ChatUnstoredReducer from '../chat/model/UnstoredReducer';
-import SocialStoredReducer from '../social/model/StoredReducer';
-import SocialUnStoredReducer from '../social/model/UnstoredReducer';
+// import SocialStoredReducer from '../social/model/StoredReducer';
+// import SocialUnStoredReducer from '../social/model/UnstoredReducer';
 // import CallStoredReducer from '../call/model/StoredReducer';
 // import CallUnstoredReducer from '../call/model/UnstoredReducer';
 // import TaskStoredReducer from '../task/model/StoredReducer';
@@ -15,6 +15,7 @@ import BaseStoredReducer from '../base/model/BaseStoreReducer';
 import BaseUnstoredReducer from '../base/model/BaseUnstoredReducer';
 import ECardStoredReducer from '../ecard/models/StoredReducer';
 import TodoStoredReducer from '../note/model/StoredReducer';
+import PostStoredReducer from '../social/model/StoredReducer';
 
 const reducer = combineReducers({
     AuthStoredReducer, AuthUnstoredReducer,
@@ -23,8 +24,7 @@ const reducer = combineReducers({
     BaseUnstoredReducer,
     ECardStoredReducer,
     TodoStoredReducer,
-    SocialStoredReducer,
-    SocialUnStoredReducer
+    PostStoredReducer
     // CallStoredReducer,  CallUnstoredReducer,
     // TaskStoredReducer,  TaskUnstoredReducer,
 })

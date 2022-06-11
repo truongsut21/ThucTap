@@ -51,7 +51,7 @@ export default function HearderPost(props) {
               color: "#B7B7B7",
               marginLeft: 10,
               paddingBottom: 0,
-              boder: 2,
+             
             }}
             size={25}
             name={"search-outline"}
@@ -65,7 +65,7 @@ export default function HearderPost(props) {
             color: "#B7B7B7",
             marginLeft: 10,
             paddingBottom: 0,
-            boder: 2,
+           
           }}
           size={25}
           name={"filter-outline"}
@@ -77,7 +77,7 @@ export default function HearderPost(props) {
             marginLeft: 10,
             paddingRight: 20,
             paddingBottom: 0,
-            boder: 2,
+         
           }}
           size={25}
           name={"grid-outline"}

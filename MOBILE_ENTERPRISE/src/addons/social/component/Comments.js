@@ -10,9 +10,10 @@ export default function Comments(props) {
       style={{
         displayL: "flex",
         flexDirection: "row",
-        marginTop: 10,
+        marginTop: 5,
         marginBottom: 5,
         margin: 20,
+        // backgroundColor:"red"
       }}
     >
       <Image
@@ -34,7 +35,15 @@ export default function Comments(props) {
         >
           {props.time}
         </Text>
-        <Text style={{ marginRight: 20, display: "flex" }}>
+        <Text
+          style={{
+            marginRight: 20,
+            display: "flex",
+            // backgroundColor: "red",
+            position: "relative",
+            bottom: 7,
+          }}
+        >
           {isLengthComment ? comment.substring(0, 80 - 3) : comment}{" "}
           <TouchableOpacity
             onPress={() => {
